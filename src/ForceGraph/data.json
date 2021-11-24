@@ -1,0 +1,247 @@
+[
+	{
+		"selectedSwitch": {
+			"switch": {
+				"type": "switch",
+				"id": 13,
+				"tenantId": 1,
+				"subscriptionAzId": "c262981a-92c0-4346-882f-54749237f313",
+				"managedResourceGroupName": "mrg-sdmc-1_1-preview-20211018132753",
+				"resourceGroupName": "test-bridge-BMS"
+			},
+			"sdmcSwitch": {
+				"type": "switch",
+				"id": 13,
+				"customerId": 1,
+				"guid": "171430a096714436af9131bfa3c1a667",
+				"instanceName": "BMSd3-core",
+				"planName": "internal-01",
+				"billUptime": true,
+				"billBridging": false,
+				"authorized": true,
+				"test": true
+			},
+			"tenant": {
+				"id": 1,
+				"customerId": 1,
+				"azId": "58975fd3-4977-44d0-bea8-37af0baac100"
+			},
+			"trial": null
+		},
+		"agentsState": {
+			"prevData": {
+				"switchStats": null,
+				"agents": [
+					{
+						"timestamp": "1970-01-01T00:00:00Z",
+						"agentName": "10.2.35.6",
+						"packetsOut": 0,
+						"packetsIn": 0,
+						"bytesOut": 0,
+						"bytesIn": 0,
+						"packetsDropped": 0,
+						"latencyBuckets": {}
+					},
+					{
+						"timestamp": "1970-01-01T00:00:00Z",
+						"agentName": "10.2.37.4",
+						"packetsOut": 0,
+						"packetsIn": 0,
+						"bytesOut": 0,
+						"bytesIn": 0,
+						"packetsDropped": 0,
+						"latencyBuckets": {}
+					},
+					{
+						"timestamp": "1970-01-01T00:00:00Z",
+						"agentName": "10.2.41.4",
+						"packetsOut": 0,
+						"packetsIn": 0,
+						"bytesOut": 0,
+						"bytesIn": 0,
+						"packetsDropped": 0,
+						"latencyBuckets": {}
+					},
+					{
+						"timestamp": "2021-11-13T13:31:13.593316078Z",
+						"agentName": "BMSd3-agent001",
+						"packetsOut": 4,
+						"packetsIn": 58626,
+						"bytesOut": 344,
+						"bytesIn": 16063524,
+						"packetsDropped": 0,
+						"latencyBuckets": {
+							"0.00": 0,
+							"0.01": 57869
+						}
+					},
+					{
+						"timestamp": "2021-11-13T13:31:13.581089496Z",
+						"agentName": "BMSd3-agent002",
+						"packetsOut": 58454,
+						"packetsIn": 0,
+						"bytesOut": 16016396,
+						"bytesIn": 0,
+						"packetsDropped": 0,
+						"latencyBuckets": {
+							"0.00": 0,
+							"0.01": 0
+						}
+					},
+					{
+						"timestamp": "2021-11-13T13:31:09.835566997Z",
+						"agentName": "BMSd3-agent003",
+						"packetsOut": 0,
+						"packetsIn": 0,
+						"bytesOut": 0,
+						"bytesIn": 0,
+						"packetsDropped": 0,
+						"latencyBuckets": {
+							"0.00": 0,
+							"0.01": 0
+						}
+					},
+					{
+						"timestamp": "2021-11-13T13:31:13.901960611Z",
+						"agentName": "BMSd3-agent004",
+						"packetsOut": 0,
+						"packetsIn": 0,
+						"bytesOut": 0,
+						"bytesIn": 0,
+						"packetsDropped": 0,
+						"latencyBuckets": {
+							"0.00": 0,
+							"0.01": 0
+						}
+					},
+					{
+						"timestamp": "2021-11-13T13:31:10.053428888Z",
+						"agentName": "BMSd3-agent005",
+						"packetsOut": 0,
+						"packetsIn": 0,
+						"bytesOut": 0,
+						"bytesIn": 0,
+						"packetsDropped": 0,
+						"latencyBuckets": {
+							"0.00": 0,
+							"0.01": 0
+						}
+					}
+				]
+			},
+			"rates": {
+				"switchStatsRates": null,
+				"agentsRates": [
+					{
+						"agentName": "10.2.35.6",
+						"type": "switch",
+						"timestamp": "1970-01-01T00:00:00.000Z",
+						"packetsOut": 100,
+						"packetsIn": 100,
+						"bytesOut": null,
+						"bytesIn": null,
+						"packetsDropped": null
+					},
+					{
+						"agentName": "10.2.37.4",
+						"type": "switch",
+						"timestamp": "1970-01-01T00:00:00.000Z",
+						"packetsOut": 1000,
+						"packetsIn": 1000,
+						"bytesOut": null,
+						"bytesIn": null,
+						"packetsDropped": null
+					},
+					{
+						"agentName": "10.2.41.4",
+						"type": "switch",
+						"timestamp": "1970-01-01T00:00:00.000Z",
+						"packetsOut": 10,
+						"packetsIn": 10,
+						"bytesOut": null,
+						"bytesIn": null,
+						"packetsDropped": null
+					},
+					{
+						"agentName": "BMSd3-agent001",
+						"type": "agent",
+						"timestamp": "2021-11-13T13:31:13.593Z",
+						"packetsOut": null,
+						"packetsIn": null,
+						"bytesOut": null,
+						"bytesIn": null,
+						"packetsDropped": null
+					},
+					{
+						"agentName": "BMSd3-agent002",
+						"type": "agent",
+						"timestamp": "2021-11-13T13:31:13.581Z",
+						"packetsOut": null,
+						"packetsIn": null,
+						"bytesOut": null,
+						"bytesIn": null,
+						"packetsDropped": null
+					},
+					{
+						"agentName": "BMSd3-agent003",
+						"type": "agent",
+						"timestamp": "2021-11-13T13:31:09.835Z",
+						"packetsOut": 500,
+						"packetsIn": 500,
+						"bytesOut": null,
+						"bytesIn": null,
+						"packetsDropped": null
+					},
+					{
+						"agentName": "BMSd3-agent004",
+						"type": "agent",
+						"timestamp": "2021-11-13T13:31:13.901Z",
+						"packetsOut": null,
+						"packetsIn": null,
+						"bytesOut": null,
+						"bytesIn": null,
+						"packetsDropped": null
+					},
+					{
+						"agentName": "BMSd3-agent005",
+						"type": "agent",
+						"timestamp": "2021-11-13T13:31:10.053Z",
+						"packetsOut": null,
+						"packetsIn": null,
+						"bytesOut": null,
+						"bytesIn": null,
+						"packetsDropped": null
+					}
+				]
+			},
+			"error": null,
+			"loading": false,
+			"prevInfo": {
+				"switch": {
+					"id": 13,
+					"tenantId": 1,
+					"subscriptionAzId": "c262981a-92c0-4346-882f-54749237f313",
+					"managedResourceGroupName": "mrg-sdmc-1_1-preview-20211018132753",
+					"resourceGroupName": "test-bridge-BMS"
+				},
+				"sdmcSwitch": {
+					"id": 13,
+					"customerId": 1,
+					"guid": "171430a096714436af9131bfa3c1a667",
+					"instanceName": "BMSd3-core",
+					"planName": "internal-01",
+					"billUptime": true,
+					"billBridging": false,
+					"authorized": true,
+					"test": true
+				},
+				"tenant": {
+					"id": 1,
+					"customerId": 1,
+					"azId": "58975fd3-4977-44d0-bea8-37af0baac100"
+				},
+				"trial": null
+			}
+		}
+	}
+]
