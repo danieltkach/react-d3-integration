@@ -31,7 +31,7 @@ const linkStyles = {
 	strokeWidth: 2,
 }
 
-export const ForceGraph = ({ data }) => {
+export const GraphGenerator = ({ data }) => {
 	const { NODES, LINKS } = data;
 	let svgRef = useRef();
 
