@@ -9,7 +9,7 @@ function createLinksArray(agentNodes) {
 		linksArray.push({
 			source: 0, target: i + 1,
 			weight: agent.packetsIn + agent.packetsOut,
-			distance: Math.random() * (350 - 70) + 70,
+			distance: Math.random() * (300 - 50) + 50,
 			marker: 'ARROW',
 			...agent
 		})
