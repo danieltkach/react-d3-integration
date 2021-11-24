@@ -4,7 +4,7 @@ import agentIcon from './agent_icon.svg';
 import * as d3 from 'd3';
 
 // Chart container dimensions ---
-let svgWidth = 1300, svgHeight = 800;
+let svgWidth = 1200, svgHeight = 700;
 
 // Constants ---
 const forceManyBody = -1000;
@@ -38,7 +38,6 @@ export const GraphGenerator = ({ data }) => {
 	useEffect(() => {
 		// Main SVG container ---
 		svgRef.current = d3.select('#viz')
-			// .append('svg')
 			.attr('width', svgWidth)
 			.attr('height', svgHeight)
 			.append('g');

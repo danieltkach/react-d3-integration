@@ -4,7 +4,6 @@ import { json as d3json } from 'd3';
 
 // Utils
 function createLinksArray(agentNodes) {
-	const n = agentNodes.length;
 	let linksArray = [];
 	agentNodes.map((agent, i) => {
 		linksArray.push({
@@ -12,7 +11,6 @@ function createLinksArray(agentNodes) {
 			weight: agent.packetsIn + agent.packetsOut,
 			distance: Math.random() * (350 - 70) + 70,
 			marker: 'ARROW',
-			// marker: Math.random()*2 > 1 ? 'ARROW' : null,
 			...agent
 		})
 	})
@@ -23,7 +21,6 @@ export const ForceGraph = () => {
 	const [graphData, setGraphData] = useState();
 
 	function loadJson() {
-		console.log('LOADJSON')
 		d3json('https://jsonkeeper.com/b/2EN4')
 			.then(res => {
 				let data = res[0];
@@ -50,8 +47,8 @@ export const ForceGraph = () => {
 	if (!graphData) return <>Loading...</>
 
 	return (
-		<div className="App">
-			<button onClick={loadJson}>New Graph</button>
+		<div className="ForceGraph" style={{display: "flex", padding: "2rem", height: "100vh"}}>
+			<button onClick={loadJson}>Update Graph {">> "} </button>
 			<GraphGenerator data={graphData} />
 		</div>
 	);
